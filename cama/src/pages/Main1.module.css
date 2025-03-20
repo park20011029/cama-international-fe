@@ -1,0 +1,44 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.fullscreen {
+    z-index: 1;
+    position: relative; /* 또는 static */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-image: url('../assets/download.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 150;
+    flex-direction: column;
+}
+
+.textOverlay {
+    margin-top: 15rem;
+}
+
+.arrowIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 10rem;
+    height: 5rem;
+    margin-top: 10vw;
+    margin-bottom: -2vw;/* 이모지와 텍스트 간격 조정 */
+}
+
+.textAndIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 이모지를 가운데 정렬 */
+}

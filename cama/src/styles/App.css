@@ -1,0 +1,29 @@
+.App {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-us, .features, .customer-service {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.about-us .content div {
+    margin-bottom: 15px;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    margin-bottom: 10px;
+}
